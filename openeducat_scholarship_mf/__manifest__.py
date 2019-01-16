@@ -20,7 +20,7 @@
 ###############################################################################
 
 {
-    'name': 'OpenEduCat Scholarship',
+    'name': 'OpenEduCat Scholarship V11.0',
     'version': '11.0.1.0.0',
     'license': 'LGPL-3',
     'category': 'Education',
