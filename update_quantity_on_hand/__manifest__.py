@@ -3,6 +3,7 @@
     'version': '10.0',
     'author': 'Muhammad Faisal',
     'sequence': 1,
+    'license': 'LGPL-3',
     'category': 'Warehouse',
     'website': 'http://Khatah.com',
     'summary' : 'Product on hand security',
