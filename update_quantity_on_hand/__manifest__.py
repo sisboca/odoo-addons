@@ -1,6 +1,7 @@
 {
     'name': 'Update Product Quantity on Hand Security',
     'version': '10.0',
+    'license': 'LGPL-3',
     'author': 'Muhammad Faisal',
     'sequence': 1,
     'category': 'Warehouse',
