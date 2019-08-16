@@ -11,7 +11,7 @@
      This module will add a new security feature for the update product quantity on hand button in inventory module
     ''',
     'depends': ['stock','product'],
-    'data': ['product_view_ext.xml','security/product_security_ext.xml'],
+    'data': ['security/product_security_ext.xml','product_view_ext.xml'],
     'demo': [],
     'installable': True,
     'application': True,
