@@ -55,12 +55,24 @@
                     <field name="name" />
                     <newline />
                     <group expand="0" string="Group By...">
-                        <filter string="Name" domain="[]" context="{'group_by':'name'}" />
-                        <filter string="Student" domain="[]" context="{'group_by':'student_id'}" />
-                        <filter string="State" domain="[]" context="{'group_by':'state'}" />
-						<filter string="Course" domain="[]" context="{'group_by':'course_id'}" />
-						<filter string="Batch" domain="[]" context="{'group_by':'batch_id'}" />
-                        <filter string="Type" domain="[]" context="{'group_by':'type_id'}" />
+                        <filter name="group_by_name"
+                                string="Name" domain="[]" 
+                                context="{'group_by':'name'}" />
+                        <filter name="group_by_student_id"
+                                string="Student" domain="[]" 
+                                context="{'group_by':'student_id'}" />
+                        <filter name="group_by_state"
+                                string="State" domain="[]" 
+                                context="{'group_by':'state'}" />
+						<filter name="group_by_course_id"
+						        string="Course" domain="[]" 
+						        context="{'group_by':'course_id'}" />
+						<filter name="group_by_batch_id"
+						        string="Batch" domain="[]" 
+						        context="{'group_by':'batch_id'}" />
+                        <filter name="group_by_type_id"
+                                string="Type" domain="[]" 
+                                context="{'group_by':'type_id'}" />
                     </group>
                 </search>
             </field>

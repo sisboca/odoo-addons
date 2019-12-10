@@ -37,8 +37,12 @@
                     <field name="amount" />
                     <newline />
                     <group expand="0" string="Group By...">
-                        <filter string="Name" domain="[]" context="{'group_by':'name'}" />
-                        <filter string="Amount" domain="[]" context="{'group_by':'amount'}" />
+                        <filter name="group_by_name"
+                                string="Name" domain="[]" 
+                                context="{'group_by':'name'}" />
+                        <filter name="group_by_amount"
+                                string="Amount" domain="[]" 
+                                context="{'group_by':'amount'}" />
                     </group>
                 </search>
             </field>
