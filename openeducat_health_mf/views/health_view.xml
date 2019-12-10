@@ -142,16 +142,16 @@
                     <group expand="0" string="Group By...">
                         <filter name="student_name" string="Student Name"
                                 domain="[]" context="{'group_by':'student_id'}" />
-                        <filter name="glasses" string="Eye Glasses" domain="[]"
-                            context="{'group_by':'eyeglasses'}" />
-                        <filter name="blood_group" string="Blood Group" domain="[]"
-                            context="{'group_by':'blood_group'}" />
-                        <filter name="physical_challenge" string="Physical Challenge" domain="[]"
-                            context="{'group_by':'physical_challenges'}" />
-                        <filter name="major_disease" string="Major Disease" domain="[]"
-                            context="{'group_by':'major_diseases'}" />
-                        <filter name="regular_checkup" string="Regular Checkup" domain="[]"
-                            context="{'group_by':'regular_checkup'}" />
+                        <filter name="glasses" string="Eye Glasses"
+                                domain="[]" context="{'group_by':'eyeglasses'}" />
+                        <filter name="blood_group" string="Blood Group"
+                                domain="[]" context="{'group_by':'blood_group'}" />
+                        <filter name="physical_challenge" string="Physical Challenge"
+                                domain="[]" context="{'group_by':'physical_challenges'}" />
+                        <filter name="major_disease" string="Major Disease"
+                                domain="[]" context="{'group_by':'major_diseases'}" />
+                        <filter name="regular_checkup" string="Regular Checkup"
+                                domain="[]" context="{'group_by':'regular_checkup'}" />
                     </group>
                 </search>
             </field>
